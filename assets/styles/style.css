@@ -25,13 +25,13 @@ p,li {
 }
 /* header area */
 .nav{
-  border:2px solid red;
+  /* border:2px solid red; */
   width:85%;
   margin:1em auto;
   overflow:auto;
 }
 .nav h1{
-  border:2px dashed black;
+  /* border:2px dashed black; */
   float:left;
   text-transform: uppercase;
 }
@@ -39,8 +39,12 @@ p,li {
   text-decoration: none;
   color:#96746b;
 }
+.nav h1 a:hover{
+  color:#19100f;
+}
+
 .nav ul{
-  border:2px dashed green;
+  /* border:2px dashed green; */
   float:right;
   margin-top:1em;
   text-transform: capitalize;
@@ -57,7 +61,7 @@ p,li {
 
 /* banner area */
 .banner{
-  border:2px solid red;
+  /* border:2px solid red; */
   height:670px;
   background-image: url(../images/banner-bg.jpg);
   background-size:cover;
@@ -67,7 +71,7 @@ p,li {
   /* /text */
 }
 .banner-text{
-  border:2px dashed white;
+  /* border:2px dashed white; */
   position:absolute;
   left:10%;
   top:50%;
@@ -99,13 +103,13 @@ p,li {
 
 /*ads area 1 */
 .ads{
-  border:2px solid red;
+  /* border:2px solid red; */
   width: 85%;
   margin:4em auto;
   overflow:auto;
 }
 .ads-items{
-  border:2px dashed black;
+  /* border:2px dashed black; */
   height:350px;
   float:left;
   width:48.5%;
@@ -126,7 +130,7 @@ p,li {
   background-position: center center;
 }
 .ads-text{
-  border:2px dashed yellow;
+  /* border:2px dashed yellow; */
   position:absolute;
   left:8%;
   top:50%;
@@ -152,13 +156,13 @@ p,li {
 
 /* marchandise sale */
 .merch{
-  border:2px solid red;
+  /* border:2px solid red; */
   width:85%;
   margin:4em auto;
 }
 
 .section-header{
-  border: 2px dashed black;
+  /* border: 2px dashed black; */
   text-align: center;
 }
 
@@ -180,12 +184,12 @@ p,li {
   margin:auto;
 }
 .merch-gallery{
-  border:2px dashed black;
+  /* border:2px dashed black; */
   margin-top:2em;
   overflow:auto;
 }
 .merch-items{
-  border:2px dashed green;
+  /* border:2px dashed green; */
   float:left;
   width:24.25%;
   margin-right:1%;
@@ -209,7 +213,7 @@ margin-right:0;
 }
 /* dicout area */
 .discount{
-  border:2px solid red;
+  /* border:2px solid red; */
   width:85%;
   margin:4em auto;
   background-image: url(../images/discount-img.jpg);
@@ -220,7 +224,7 @@ margin-right:0;
   position:relative;
 }
 .discount-text{
- border:2px dashed yellow;
+ /* border:2px dashed yellow; */
  color:#ffffff;
  text-transform:uppercase;
  font-family: 'Raleway', sans-serif;
@@ -258,7 +262,7 @@ margin-right:0;
 
 /* ads area 2 */
 .ads{
-  border:2px solid red;
+  /* border:2px solid red; */
 }
 /* 
 .ads-items{
@@ -296,17 +300,17 @@ margin-right:0;
 
 /* resarvation form area */
 .reservation{
-  border:2px solid red;
+  /* border:2px solid red; */
   width:85%;
   margin:4em auto;
 }
 form{
-  border:2px dashed black;
+  /* border:2px dashed black; */
   margin-top:2em;
   overflow:auto;
 }
 .form-group{
-  border:2px solid green;
+  /* border:2px solid green; */
   float:left;
   width:49.5%;
   padding:2em;
@@ -386,7 +390,7 @@ form input[type=submit]{
 }
 /* footer area 1 */
 .footer{
-  border:2px solid red;
+  /* border:2px solid red; */
   background-image: url(../images/footer-img.jpg);
   background-size:cover;
   background-position: center center;
@@ -396,13 +400,13 @@ form input[type=submit]{
 }
 .footer-contents{
   width:85%;
-  border:2px dashed white;
+  /* border:2px dashed white; */
   margin:0 auto;
   position:relative;
   overflow:auto;
 }
 .footer-widgets{
-  border:2px dashed yellow;
+  /* border:2px dashed yellow; */
   float:left;
   width:24.25%;
   color:#ffffff; 
@@ -424,12 +428,12 @@ form input[type=submit]{
 }
 /* footer area 2 */
 .footer-social{
-  border: 2px solid yellow;
+  /* border: 2px solid yellow; */
   background-color:#19100F;
   overflow: auto;
 }
 .social-widgets{
-  border:2px dashed white;
+  /* border:2px dashed white; */
   float:left;
   width:33.3%;
   color:#ffffff;
