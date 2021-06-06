@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Raleway:ital@1&display=swap');
+
+/* font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif; */
+/* hはoswald pはraleway */
+
+/* reset decolation */
+*{
+  margin:0;
+  box-sizing:border-box;
+  padding:0;
+  border:0;
+  outline:0;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Oswald', sans-serif;
+}
+/* no internet →　sans-serif */
+p,li {
+  font-family: 'Raleway', sans-serif; 
+}
+.wrapper{
+  margin:auto;
+  width:100%;
+}
+/* header area */
+.nav{
+  border:2px solid red;
+  width:85%;
+  margin:1em auto;
+  overflow:auto;
+}
+.nav h1{
+  border:2px dashed black;
+  float:left;
+  text-transform: uppercase;
+}
+.nav h1 a{
+  text-decoration: none;
+  color:#96746b;
+}
+.nav ul{
+  border:2px dashed green;
+  float:right;
+  margin-top:1em;
+  text-transform: capitalize;
+}
+.nav ul li{
+  display:inline-block;
+  margin-left:1em;
+}
+.nav ul li a{
+  color:#312a26;
+  font-weight:700;
+  text-decoration: none;
+}
+
+/* banner area */
+.banner{
+  border:2px solid red;
+  height:670px;
+  background-image: url(../images/banner-bg.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  position:relative;
+  /* /text */
+}
+.banner-text{
+  border:2px dashed white;
+  position:absolute;
+  left:10%;
+  top:50%;
+  transform:translate(0,-50%)
+}
+.banner-text h2{
+  color:#c7a17a;
+  text-transform:uppercase;
+  font-size:4em;
+  
+}
+.banner-text h2 span{
+  color:#96746b;
+}
+.banner-text p{
+  color:#ffffff;
+}
+.banner-text a{
+  color:#ffffff;
+  text-decoration: none;
+  text-transform:capitalize;
+  font-family: 'Raleway', sans-serif;
+  background-color: #312a26;
+  padding:1em;
+  margin-top:1em;
+  display:inline-block;
+  font-weight:700;
+}
+
+/*ads area 1 */
+.ads{
+  border:2px solid red;
+  width: 85%;
+  margin:4em auto;
+  overflow:auto;
+}
+.ads-items{
+  border:2px dashed black;
+  height:350px;
+  float:left;
+  width:48.5%;
+  position:relative;
+}
+
+.ads-item1{
+  background-image: url(../images/ads-img1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right:3%;
+}
+.ads-item2{
+  background-image: url(../images/ads-img2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.ads-text{
+  border:2px dashed yellow;
+  position:absolute;
+  left:8%;
+  top:50%;
+  transform:translate(0,-50%);
+  width:45%;
+}
+.ads-text h3{
+  color:#ffffff;
+  font-size:2em;
+  text-transform: uppercase;
+  text-shadow:3px 3px 5px #312a26;
+  line-height: 1.2em;
+}
+.ads-text a{
+  color:#ffffff;
+  text-transform:uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight:700;
+  margin-top:1em;
+  display:inline-block;
+  text-shadow:3px 3px 5px #312a26;
+}
+
+/* marchandise sale */
+.merch{
+  border:2px solid red;
+  width:85%;
+  margin:4em auto;
+}
+
+.section-header{
+  border: 2px dashed black;
+  text-align: center;
+}
+
+.section-header span{
+  color:#c7a17a;
+  font-family: 'Raleway', sans-serif;
+  font-style: italic;
+  font-weight:500;
+  text-transform: capitalize;
+}
+.section-header h2{
+  color:#312a26;
+  text-transform: uppercase;
+}
+.section-header hr{
+  height:2px;
+  background-color: #c7a17a;
+  width:30%;
+  margin:auto;
+}
+.merch-gallery{
+  border:2px dashed black;
+  margin-top:2em;
+  overflow:auto;
+}
+.merch-items{
+  border:2px dashed green;
+  float:left;
+  width:24.25%;
+  margin-right:1%;
+}
+.merch-items img{
+  width:100%;
+  height:350px;
+  object-fit:cover;
+}
+/* .merch-items:nth-child(1),.merch-items:nth-child(2),.merch-items:nth-child(3),.merch-items:nth-child(5),.merch-items:nth-child(6),.merch-items:nth-child(7){
+  margin-right:1%;
+} */
+.merch-items:nth-child(4),.merch-items:nth-child(8){
+margin-right:0;
+}
+.merch-items:nth-child(1),.merch-items:nth-child(2),.merch-items:nth-child(3),.merch-items:nth-child(4){
+  margin-bottom:1%;
+}
+.merch-items h3{
+  text-transform: capitalize;
+}
+/* dicout area */
+.discount{
+  border:2px solid red;
+  width:85%;
+  margin:4em auto;
+  background-image: url(../images/discount-img.jpg);
+  height:350px;
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position:relative;
+}
+.discount-text{
+ border:2px dashed yellow;
+ color:#ffffff;
+ text-transform:uppercase;
+ font-family: 'Raleway', sans-serif;
+ font-weight:700;
+ margin-top:1em;
+ display:inline-block;
+ position:absolute;
+ left:50%;
+ top:50%;
+ transform:translate(-50%,-50%);
+ width: 70%;
+ text-align:center;
+}
+.discount-text span{
+  height:1em;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.dicount-text h2{
+  font-size: 2em;
+  text-shadow: 3px 3px 5px #312a26;
+  text-transform: uppercase;
+  font-size:2em;
+}
+
+.discount a{
+  /* border:2px dashed red; */
+  color:black;
+  background-color: rgba(255, 255, 255, 0.48);
+  padding:1em;
+  display:inline-block;
+  text-decoration: none;
+  margin-top:1em;
+}
+
+/* ads area 2 */
+.ads{
+  border:2px solid red;
+}
+/* 
+.ads-items{
+  margin-right:1px;
+} */
+.ads-item3{
+  background-image: url(../images/ads-img3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right:3%;
+  margin-bottom:3%;
+}
+.ads-item4{
+  background-image: url(../images/ads-img4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-bottom:3%;
+}
+
+.ads-item5{
+  background-image: url(../images/ads-img5.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right:3%;
+}
+.ads-item6{
+  background-image: url(../images/ads-img6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+/* resarvation form area */
+.reservation{
+  border:2px solid red;
+  width:85%;
+  margin:4em auto;
+}
+form{
+  border:2px dashed black;
+  margin-top:2em;
+  overflow:auto;
+}
+.form-group{
+  border:2px solid green;
+  float:left;
+  width:49.5%;
+  padding:2em;
+  height:600px;
+  background-color:#f2f2f2;
+  
+}
+.form-group:nth-child(1){
+  margin-right:1%;
+}
+form label{
+  text-transform: capitalize;
+  font-family:'Raleway', sans-serif; 
+  font-weight:700;
+}
+form input{
+  width:100%;
+  display:inline-block;
+  padding:1em;
+  font-family:'Raleway', sans-serif; 
+  margin-bottom:1em;
+}
+form select{
+  width:100%;
+  padding:1em;
+  margin-bottom:1em;
+}
+.form-group p{
+  text-align: center;
+  text-transform:capitalize;
+  font-weight:700;
+  margin:1em;
+}
+
+.res-time{
+  text-align: center;
+}
+.res-time * {
+  width: auto;
+}
+.form-group textarea{
+  width: 100%;
+  margin-bottom:1em;
+  display:block;
+  /* displayがないとwidthを80%にしたらセンターにできなくなる */
+}
+
+.form-group h3{
+  text-align: center;
+  text-transform:uppercase ;
+}
+
+form h3::after{
+  content:"";
+  display:block;
+  background-image: url(../images/reservation-cards.png);
+  width: 150px;
+  height:30px;
+  background-size:contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin:auto;
+}
+.res-agreement *{
+  width:auto;
+}
+.res-agreement label{
+  text-transform: lowercase;
+}
+.res-agreement label span{
+  text-transform: capitalize;
+}
+form input[type=submit]{
+  background-color: #c7a17a;
+  text-transform:uppercase ;
+  font-weight:700;
+}
+/* footer area 1 */
+.footer{
+  border:2px solid red;
+  background-image: url(../images/footer-img.jpg);
+  background-size:cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin:auto;
+  padding:2em 0;
+}
+.footer-contents{
+  width:85%;
+  border:2px dashed white;
+  margin:0 auto;
+  position:relative;
+  overflow:auto;
+}
+.footer-widgets{
+  border:2px dashed yellow;
+  float:left;
+  width:24.25%;
+  color:#ffffff; 
+  margin-right:1%;
+  text-transform: capitalize;
+}
+.footer-widgets:nth-child(4){
+  margin-right:0;
+}
+.footer-widgets h3{
+  text-transform:uppercase;
+  margin:1em 0;
+}
+.footer-widgets p{
+  color:#c7a17a;
+}
+.footer-form *{
+  width: auto; 
+}
+/* footer area 2 */
+.footer-social{
+  border: 2px solid yellow;
+  background-color:#19100F;
+  overflow: auto;
+}
+.social-widgets{
+  border:2px dashed white;
+  float:left;
+  width:33.3%;
+  color:#ffffff;
+  text-align: center;
+}
+.social-widgets a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  margin:auto;
+}
+.social-widgets:nth-child(2){
+  padding-top:0.2em; 
+}
+.social-widgets img{
+  width: 1.5em;
+}
+.social-widgets p{
+  margin-top:0.3em;
+  text-transform:capitalize;
+}
